@@ -12,6 +12,7 @@ indirect_value lite – An indirect value-type for C++11 and later in a single-f
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Synopsis](#synopsis)
+- [Presentations](#presentations)
 - [Other implementations of indirect_value](#other-implementations-of-indirect_value)
 - [Notes and references](#notes-and-references)
 - [Appendix](#appendix)
@@ -199,15 +200,21 @@ Define this to 1 if you want to compile without this extension. Default is undef
 -D<b>nsiv\_CONFIG\_NO\_EXTENSION\_STD\_HASH</b>=0  
 Define this to 1 if you want to compile without this extension. Default is undefined (extension enabled).  
 
+## Presentations
+
+Jonathan Coe. [Vocabulary Types for Composite Class Design](https://youtu.be/sjLRX4WMvlU?si=1_cfQGG2142i5VJo). C++ on Sea 2022.
+
 ## Other implementations of indirect_value
 
-J.B. Coe. Reference implementation: [indirect_value](https://github.com/jbcoe/indirect_value). An indirect value-type for C++. GitHub.  
+J.B. Coe. Reference implementation at [value_types](https://github.com/jbcoe/value_types). Value types for composite class design. GitHub.  
+A previous version is archived at [indirect_value](https://github.com/jbcoe/indirect_value).
 
 ## Notes and references
 
 W. Brown. [n3339](http://wg21.link/n3339): A Preliminary Proposal for a Deep-Copying Smart Pointer, Walter E. Brown, 2012.  
-J.B. Coe. [p0201](http://wg21.link/p0201): polymorphic_value: A Polymorphic Value Type for C++.  
-J.B. Coe. [p1950](http://wg21.link/p1950): indirect_value: A Free-Store-Allocated Value Type For C++.  
+J.B. Coe. [p0201](http://wg21.link/p0201): polymorphic_value: A Polymorphic Value Type for C++, 2022.  
+J.B. Coe. [p1950](http://wg21.link/p1950): indirect_value: A Free-Store-Allocated Value Type For C++, 2022.  
+J.B. Coe. [p3019](http://wg21.link/p3019): indirect and polymorphic: Vocabulary Types for Composite Class Design, 2025. P3019r14 was accepted in the Hagenburg meeting in 2025 for inclusion in C++26.  
 J. Coplien. Advanced C++ Programming Styles and Idioms (Addison-Wesley), James O. Coplien. 1992.  
 C. Ericson. [Memory Optimization, Christer Ericson, Games Developers Conference](http://realtimecollisiondetection.net/pubs/GDC03_Ericson_Memory_Optimization.ppt) (PPT). 2003.  
 R. Grimm. [Visiting a std::variant with the Overload Pattern](https://www.modernescpp.com/index.php/visiting-a-std-variant-with-the-overload-pattern). 2021.  
